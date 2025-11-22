@@ -20,7 +20,7 @@ Express benzeri ama daha hafif, HTML error page ve **res.title / res.red** özel
 ## 🔹 Kurulum
 
 ```bash
-npm install 7945-site
+> npm install 7945-site
 ```
 
 ---
@@ -121,3 +121,4 @@ res.red("/", 3);       // 3 saniye sonra yönlendir
 * `url.parse()` yerine modern `URL` kullanılabilir
 
 * `res.end()` çağrısından sonra `res.title()` veya `res.red()` çağrılmaz çünkü `res.end()` son söz sahibidir
+
