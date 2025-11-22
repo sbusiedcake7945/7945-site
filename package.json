@@ -1,15 +1,16 @@
 {
   "name": "7945-site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a basic website creating module",
   "keywords": [
     "http"
   ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/sbusiedcake7945/7945-site"
+  },
   "license": "MIT",
   "author": "sbusiedcake7945",
   "type": "commonjs",
-  "main": "7945-site.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "main": "7945-site.js"
 }
